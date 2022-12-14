@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <script src="dist/index.js" type="module"></script>
+    <title>Todo</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: azure;
+      }
+      body {
+        background-image: url('./colour-blast.jpg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 100% 1000%;
+        text-align: center;
+      }
+      #list {
+        background-color: aliceblue;
+        text-align: center;
+        list-style: none;
+        padding: 0;
+        color: rgb(7, 8, 8);
+        text-shadow: 2px 2px 5px red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Todo-List with TypeScript
+    </h1>
+    <ul id="list"></ul>
+    <form id="new-task-form">
+      <input type="text" id="new-task-title" />
+      <button type="submit">Add</button>
+    </form>
+  </body>
+</html>
